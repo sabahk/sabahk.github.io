@@ -12,9 +12,14 @@ h3 {
   padding-bottom: 15px;
 }
 
-#skills h4, #skills h5 {
-  text-align: center;
+#skills h4 {
+  margin: auto;
+  width: 50%;
   padding-bottom: 15px;
+}
+
+#skills h5{
+  text-align: left;
 }
 
 .center{
