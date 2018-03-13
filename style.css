@@ -120,3 +120,15 @@ h3 {
 .aboutp {
   padding-right: 250px;
 }
+
+@media only screen and (max-width: 600px) {
+    .navbar-nav {
+      position: absolute !important;
+      left: 0;
+      transform: none;
+    }
+
+    .collapse{
+      padding-bottom: 500px;
+    }
+}
