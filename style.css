@@ -121,6 +121,17 @@ h3 {
   padding-right: 250px;
 }
 
+#collapse_target.navbar-collapse.collapse.show ul{
+  position: relative;
+  background-color: black;
+  
+}
+
+#collapse_target.navbar-collapse.collapsing ul{
+  position: relative;
+  background-color: black;
+}
+
 @media only screen and (max-width: 600px) {
     .navbar-nav {
       position: absolute !important;
@@ -128,7 +139,9 @@ h3 {
       transform: none;
     }
 
-    .collapse{
-      padding-bottom: 500px;
+
+
+    #hero-image{
+      position: absolute;
     }
 }
