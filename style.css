@@ -172,6 +172,12 @@ padding-bottom: 20px;
   color: #96858F;
 }
 
+.port img{
+  padding-left: 0;
+  padding-top: 5px;
+  height: 200px;
+  width: 200px;
+}
 #collapse_target.navbar-collapse.collapse.show ul {
   position: relative;
   background-color: black;
