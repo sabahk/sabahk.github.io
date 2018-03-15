@@ -25,13 +25,14 @@ i {
   font-size: 2em;
 }
 
-a{
+a {
   text-decoration: none;
   color: #96858F;
 }
 
-a:hover{
+a:hover {
   text-decoration: none;
+  color: grey;
 }
 
 #skills h4 {
@@ -67,6 +68,14 @@ img {
   position: relative;
 }
 
+.frost {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  opacity: 0.35;
+  z-index: 9;
+}
+
 .hero-text {
   margin: 20px 20px;
 }
@@ -79,7 +88,6 @@ img {
   transform: translate(-50%, -50%);
   background-color: black;
   padding: 50px 50px 50px 50px;
-  opacity: 0.85;
 }
 
 .navbar-nav {
@@ -87,7 +95,6 @@ img {
   left: 50%;
   transform: translateX(-50%);
   z-index: 9;
-
 }
 
 .navbar-nav li {
@@ -109,9 +116,7 @@ img {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-.navbar-toggler {
-  border-color: red;
-}
+.navbar-toggler {}
 
 .aboutp {
   padding-right: 250px;
@@ -151,14 +156,14 @@ img {
 }
 
 .projbox {
-padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 .proj {
   margin: auto;
   vertical-align: top;
   border-color: white;
-  border-width:1px;
+  border-width: 1px;
   border-style: solid;
   padding: 10px 10px 0px 10px;
   box-shadow: 1px 1px 5px white;
@@ -172,12 +177,17 @@ padding-bottom: 20px;
   color: #96858F;
 }
 
-.port img{
+.port img {
   padding-left: 0;
   padding-top: 5px;
   height: 200px;
   width: 200px;
 }
+
+.port img:hover {
+  opacity: 0.5;
+}
+
 #collapse_target.navbar-collapse.collapse.show ul {
   position: relative;
   background-color: black;
@@ -188,13 +198,13 @@ padding-bottom: 20px;
   background-color: black;
 }
 
-#contact{
+#contact {
   height: 300px;
 }
 
-#contact p{
+#contact p {
   padding-bottom: 25px;
-  padding-top: 50px;
+  padding-top: 25px;
 }
 
 @media only screen and (max-width: 768px) {}
