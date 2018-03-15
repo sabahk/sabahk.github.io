@@ -3,6 +3,9 @@ body, html {
   width: 100%;
   background-color: black;
   color: white;
+}
+
+body {
   font-family: 'Hind Siliguri', sans-serif;
 }
 
@@ -27,37 +30,14 @@ h3 {
   text-align: left;
 }
 
-.pill {
-  background-color: grey;
-  border-radius: 5px;
-  width: 110px;
-  padding: 10px 10px 10px 10px;
-  display: inline-block;
-}
-
-.pill p {
-  line-height: 1.5;
-}
-
-.center {
-  margin: auto;
-  width: 50%;
-}
-
-.proj {
-  background-color: grey;
-  padding: 0px 10px 0px 10px;
-  box-shadow: 3px 3px 5px white;
-}
-
 #experience h4 {
   text-align: center;
   padding-left: 20px;
   padding-bottom: 20px;
 }
 
-.proj span {
-  color: rgb(66, 69, 86);
+img {
+  padding-left: 25%;
 }
 
 #hero-image {
@@ -92,6 +72,7 @@ h3 {
   position: fixed;
   left: 50%;
   transform: translateX(-50%);
+  z-index: 9;
 }
 
 .navbar-nav li {
@@ -121,22 +102,69 @@ h3 {
   padding-right: 250px;
 }
 
-#collapse_target.navbar-collapse.collapse.show ul{
-  position: relative;
-  background-color: black;
+.pill {
+  background-color: #034060;
+  border-radius: 5px;
+  color: #fff;
+  margin-bottom: .04166666666667%;
+  padding: 10px 20px 10px 10px;
+  display: inline-block;
 }
-#collapse_target.navbar-collapse.collapsing ul{
+
+.pill p {
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin: 0;
+  float: left;
+}
+
+.skill-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.grid {
+  padding-bottom: 3em;
+  position: relative;
+}
+
+.center {
+  text-align: center;
+  margin: auto;
+  width: 50%;
+}
+
+.projbox {}
+
+.proj {
+  margin-left: 150px;
+  margin-bottom: 50px;
+  vertical-align: top;
+  background-color: grey;
+  padding: 10px 10px 0px 10px;
+  box-shadow: 3px 3px 5px white;
+  width: 50%;
+}
+
+.proj.center {
+  text-align: left;
+  width: 600px;
+  display: inline-block;
+}
+
+.proj span {
+  color: rgb(66, 69, 86);
+}
+
+#collapse_target.navbar-collapse.collapse.show ul {
   position: relative;
   background-color: black;
 }
 
-@media only screen and (max-width: 768px) {
-  #collapse_target.navbar-collapse.collapse.show ul{
-    position: relative;
-    background-color: black;
-  }
-  #collapse_target.navbar-collapse.collapsing ul{
-    position: relative;
-    background-color: black;
-  }
+#collapse_target.navbar-collapse.collapsing ul {
+  position: relative;
+  background-color: black;
 }
+
+@media only screen and (max-width: 768px) {}
