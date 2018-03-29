@@ -183,10 +183,11 @@ img {
   padding-top: 5px;
   height: 200px;
   width: 200px;
+  opacity: 0.5;
 }
 
 .port img:hover {
-  opacity: 0.5;
+  opacity: 1.00;
 }
 
 #collapse_target.navbar-collapse.collapse.show ul {
