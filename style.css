@@ -209,6 +209,10 @@ img {
   padding-top: 25px;
 }
 
+#about{
+  text-align: center;
+}
+
 @media only screen and (max-width: 768px) {
 
 }
