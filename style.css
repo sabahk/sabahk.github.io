@@ -123,6 +123,10 @@ img {
   margin: auto;
 }
 
+#about{
+  text-align: center;
+}
+
 .pill {
   background-color: #034060;
   border-radius: 5px;
