@@ -9,9 +9,14 @@ body {
   font-family: 'Hind Siliguri', sans-serif;
 }
 
-hr {
+.hero-text hr {
   border-color: white;
   width: 50%;
+}
+
+hr{
+  border-color: white;
+  width: 15%;
 }
 
 h3 {
@@ -67,17 +72,6 @@ img {
   position: relative;
 }
 
-.frost {
-  background-color: black;
-  height: 100%;
-  width: 100%;
-  opacity: 0.35;
-  z-index: 9;
-}
-
-.hero-text {
-}
-
 .hero-text {
   text-align: left;
   position: absolute;
@@ -126,12 +120,13 @@ img {
 }
 
 .pill {
-  background-color: #034060;
+  background-color: #96858F;
   border-radius: 5px;
   color: #fff;
   margin-bottom: .04166666666667%;
   padding: 10px 20px 10px 10px;
   display: inline-block;
+  opacity: 0.8;
 }
 
 .pill p {
