@@ -45,8 +45,10 @@ a:hover {
   padding-bottom: 15px;
 }
 
-#skills h5 {
-  text-align: left;
+#skills ul{
+  text-align: center;
+  list-style: none;
+  padding: 0;
 }
 
 #experience h4 {
@@ -119,34 +121,6 @@ img {
   text-align: center;
 }
 
-.pill {
-  background-color: #96858F;
-  border-radius: 5px;
-  color: #fff;
-  margin-bottom: .04166666666667%;
-  padding: 10px 20px 10px 10px;
-  display: inline-block;
-  opacity: 0.8;
-}
-
-.pill p {
-  font-weight: 700;
-  font-size: 1.25rem;
-  line-height: 1.5;
-  margin: 0;
-  float: left;
-}
-
-.skill-wrapper {
-  display: table-cell;
-  vertical-align: middle;
-}
-
-.grid {
-  padding-bottom: 3em;
-  position: relative;
-}
-
 .center {
   text-align: center;
   margin: auto;
@@ -163,7 +137,7 @@ img {
   border-color: white;
   border-width: 1px;
   border-style: solid;
-  padding: 10px 10px 0px 10px;
+  padding: 10px 0px 0px 10px;
   box-shadow: 1px 1px 5px white;
 }
 
