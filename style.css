@@ -9,10 +9,14 @@ body {
   font-family: 'Hind Siliguri', sans-serif;
 }
 
-hr {
+.hero-text hr {
+  border-color: white;
+  width: 50%;
+}
+
+hr{
   border-color: white;
   width: 15%;
-  padding-bottom: 10px;
 }
 
 h3 {
@@ -41,8 +45,10 @@ a:hover {
   padding-bottom: 15px;
 }
 
-#skills h5 {
-  text-align: left;
+#skills ul{
+  text-align: center;
+  list-style: none;
+  padding: 0;
 }
 
 #experience h4 {
@@ -57,9 +63,15 @@ img {
 
 #hero-image {
   /* The image used */
+<<<<<<< HEAD
   background-image: url("images/bg1.jpeg");
   /* Set a specific height */
   height: 70%;
+=======
+  background-image: url("images/bg.jpg");
+  /* Set a specific height */
+  height: 100%;
+>>>>>>> 0aaff58f61ae0497cfc63e831fd715e4f4d519ff
   width: 100%;
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
@@ -68,24 +80,12 @@ img {
   position: relative;
 }
 
-.frost {
-  background-color: black;
-  height: 100%;
-  width: 100%;
-  opacity: 0.35;
-  z-index: 9;
-}
-
 .hero-text {
-  margin: 20px 20px;
-}
-
-.hero-text h1 {
-  text-align: center;
+  text-align: left;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 20%;
+  left: 5%;
+  width: 30%;
   background-color: black;
   padding: 50px 50px 50px 50px;
 }
@@ -123,31 +123,8 @@ img {
   margin: auto;
 }
 
-.pill {
-  background-color: #034060;
-  border-radius: 5px;
-  color: #fff;
-  margin-bottom: .04166666666667%;
-  padding: 10px 20px 10px 10px;
-  display: inline-block;
-}
-
-.pill p {
-  font-weight: 700;
-  font-size: 1.25rem;
-  line-height: 1.5;
-  margin: 0;
-  float: left;
-}
-
-.skill-wrapper {
-  display: table-cell;
-  vertical-align: middle;
-}
-
-.grid {
-  padding-bottom: 3em;
-  position: relative;
+#about{
+  text-align: center;
 }
 
 .center {
@@ -166,7 +143,7 @@ img {
   border-color: white;
   border-width: 1px;
   border-style: solid;
-  padding: 10px 10px 0px 10px;
+  padding: 10px 0px 0px 10px;
   box-shadow: 1px 1px 5px white;
 }
 
