@@ -63,15 +63,9 @@ img {
 
 #hero-image {
   /* The image used */
-<<<<<<< HEAD
-  background-image: url("images/bg1.jpeg");
-  /* Set a specific height */
-  height: 70%;
-=======
   background-image: url("images/bg.jpg");
   /* Set a specific height */
   height: 100%;
->>>>>>> 0aaff58f61ae0497cfc63e831fd715e4f4d519ff
   width: 100%;
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
