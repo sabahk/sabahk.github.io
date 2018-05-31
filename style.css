@@ -17,7 +17,8 @@ h4{
 }
 
 h5 span{
-    line-height: 30px;
+    line-height: 15px;
+    color: #F0F0F0;
 }
 
 .navLinks{
@@ -98,6 +99,10 @@ a {
 
 .main #about{
     height: 100%;
+}
+
+#skills ul{
+    padding-left: 5px;
 }
 
 #skills li{
