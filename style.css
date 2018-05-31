@@ -121,18 +121,8 @@ a {
     color: #EFF0F4;
 }
 
-<<<<<<< HEAD
 .expDesc ul{
     padding: 20px 10px;
     margin-right: 5px;
     list-style: square;
 }
-=======
-#about{
-  text-align: center;
-}
-
-@media only screen and (max-width: 768px) {
-
-}
->>>>>>> c9e957e472dd7e08a533c83e62f98d0b8a5e8f1c
