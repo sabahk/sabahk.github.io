@@ -1,185 +1,128 @@
-body, html {
-  height: 100%;
-  width: 100%;
-  background-color: black;
-  color: white;
+html, body{
+    top: 0;
+    bottom: 0;
 }
 
-body {
-  font-family: 'Hind Siliguri', sans-serif;
+i{
+    padding-right: 10px;
 }
 
-.hero-text hr {
-  border-color: white;
-  width: 50%;
+h2{
+    text-align: center;
+    line-height: 50px;
 }
 
-hr{
-  border-color: white;
-  width: 15%;
+h4{
+    text-align: center;
 }
 
-h3 {
-  text-align: center;
-  padding-top: 15px;
+h5 span{
+    line-height: 30px;
 }
 
-i {
-  padding-right: 10px;
-  font-size: 2em;
+.navLinks{
+    text-align: center;
 }
+
+ul{
+    list-style: none;
+}
+
+.navLinks ul{
+    margin-top: 30%;
+    display: inline-block;
+    text-align: center;
+    padding: 0;
+  }
+
+  .navLinks li{
+      line-height: 40px;
+      border-bottom: 1px solid #D71F3D;
+      display: block;
+      padding: 1em 0;
+  }
 
 a {
-  text-decoration: none;
-  color: #96858F;
+    text-decoration: none;
+    color: #F0F0F0;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: #D71F3D;
+  }
+
+  svg{
+      padding-top: 20px;
+      display: block;
+      margin: auto;
+  }
+  
+
+.sidebar{
+    background-color: #172027;
+    color: #EFF0F4;
+    top: 0;
+    width: 25%;
+    height: 100%;
+    position: fixed;   
 }
 
-a:hover {
-  text-decoration: none;
-  color: grey;
+.info{
+    margin-top: 40%;
+    text-align: center;
 }
 
-#skills h4 {
-  margin: auto;
-  width: 50%;
-  padding-bottom: 15px;
+.info h5{
+    font-size: 1em;
+    line-height: 0.5em;
+    letter-spacing: 0.1em;
 }
 
-#skills ul{
-  text-align: center;
-  list-style: none;
-  padding: 0;
+.contact{
+    margin-top: 20%;
 }
 
-#experience h4 {
-  text-align: center;
-  padding-left: 20px;
-  padding-bottom: 20px;
+.center{
+    text-align: center;
+    margin: auto;
 }
 
-img {
-  padding-left: 25%;
+.main{
+    color: #172027;
+    margin-left: 25%;
+    padding-left: 80px;
+    padding-top: 5%;
+    padding-bottom: 20px;
 }
 
-#hero-image {
-  /* The image used */
-  background-image: url("images/bg.jpg");
-  /* Set a specific height */
-  height: 100%;
-  width: 100%;
-  /* Position and center the image to scale nicely on all screens */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+.main #about{
+    height: 100%;
 }
 
-.hero-text {
-  text-align: left;
-  position: absolute;
-  top: 20%;
-  left: 5%;
-  width: 30%;
-  background-color: black;
-  padding: 50px 50px 50px 50px;
+#skills li{
+    text-align: center;
 }
 
-.navbar-nav {
-  position: fixed;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 9;
+.expBlock{
+    margin-bottom: 10px;
 }
 
-.navbar-nav li {
-  padding: 25px 30px 15px 15px;
+.expBlock h5{
+    padding: 20px 10px;
 }
 
-.navbar-nav a {
-  color: White;
+.expTitle{
+    background-color: #D71F3D;
 }
 
-.navbar-expand-md {
-  background: transparent;
-  background-image: none;
-  border-color: transparent;
-  box-shadow: none;
+.expDesc{
+    background-color: #172027;
+    color: #EFF0F4;
 }
 
-.navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}
-
-.navbar-toggler {}
-
-.aboutp {
-  padding-right: 250px;
-  margin: auto;
-}
-
-#about{
-  text-align: center;
-}
-
-.center {
-  text-align: center;
-  margin: auto;
-  width: 50%;
-}
-
-.projbox {
-  padding-bottom: 20px;
-}
-
-.proj {
-  margin: auto;
-  vertical-align: top;
-  border-color: white;
-  border-width: 1px;
-  border-style: solid;
-  padding: 10px 0px 0px 10px;
-  box-shadow: 1px 1px 5px white;
-}
-
-.proj.center {
-  text-align: left;
-}
-
-.proj span {
-  color: #96858F;
-}
-
-.port img {
-  padding-left: 0;
-  padding-top: 5px;
-  height: 200px;
-  width: 200px;
-  opacity: 0.5;
-}
-
-.port img:hover {
-  opacity: 1.00;
-}
-
-#collapse_target.navbar-collapse.collapse.show ul {
-  position: relative;
-  background-color: black;
-}
-
-#collapse_target.navbar-collapse.collapsing ul {
-  position: relative;
-  background-color: black;
-}
-
-#contact {
-  height: 300px;
-}
-
-#contact p {
-  padding-bottom: 25px;
-  padding-top: 25px;
-}
-
-@media only screen and (max-width: 768px) {
-
+.expDesc ul{
+    padding: 20px 10px;
+    margin-right: 5px;
+    list-style: square;
 }
