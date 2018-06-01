@@ -131,3 +131,11 @@ a {
     margin-right: 5px;
     list-style: square;
 }
+
+.formboxes{
+    border: none;
+    border-bottom: 2px solid #D71F3D;
+    background-color: rgb(23,32,39, 0.1);
+    color: #172027;
+    margin-bottom: 10px;
+}
