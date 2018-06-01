@@ -1,95 +1,101 @@
-html, body{
+html, body {
     top: 0;
     bottom: 0;
 }
 
-i{
+i {
     padding-right: 10px;
 }
 
-h2{
+h2 {
     text-align: center;
+    margin: auto;
+    padding: 70px 0;
     line-height: 50px;
 }
 
-h4{
+h4 {
     text-align: center;
 }
 
-h5 span{
+h5{
+    text-align: center;
+    margin: auto; 
+}
+
+h5 span {
     line-height: 15px;
     color: #F0F0F0;
 }
 
-.navLinks{
+.navLinks {
     text-align: center;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-.navLinks ul{
+.navLinks ul {
     margin-top: 30%;
     display: inline-block;
     text-align: center;
     padding: 0;
-  }
+}
 
-  .navLinks li{
-      line-height: 40px;
-      border-bottom: 1px solid #D71F3D;
-      display: block;
-      padding: 1em 0;
-  }
+.navLinks li {
+    line-height: 30px;
+    border-bottom: 1px solid #D71F3D;
+    display: block;
+    padding: 1em 0;
+}
 
 a {
     text-decoration: none;
     color: #F0F0F0;
-  }
-  
-  a:hover {
+}
+
+a:hover {
     text-decoration: none;
     color: #D71F3D;
-  }
+}
 
-  svg{
-      padding-top: 20px;
-      display: block;
-      margin: auto;
-  }
-  
+svg {
+    padding-top: 20px;
+    display: block;
+    margin: auto;
+}
 
-.sidebar{
+.sidebar {
     background-color: #172027;
     color: #EFF0F4;
     top: 0;
     width: 25%;
     height: 100%;
-    position: fixed;   
+    position: fixed;
 }
 
-.info{
+.info {
     margin-top: 40%;
     text-align: center;
 }
 
-.info h5{
+.info h5 {
     font-size: 1em;
     line-height: 0.5em;
     letter-spacing: 0.1em;
 }
 
-.contact{
+.contact {
     margin-top: 20%;
 }
 
-.center{
+.center {
     text-align: center;
     margin: auto;
 }
 
-.main{
+.main {
     color: #172027;
     margin-left: 25%;
     padding-left: 80px;
@@ -97,45 +103,63 @@ a {
     padding-bottom: 20px;
 }
 
-.main #about{
+.main #about {
     height: 100%;
 }
 
-#skills ul{
+#skills ul {
     padding-left: 5px;
 }
 
-#skills li{
+#skills li {
     text-align: center;
 }
 
-.expBlock{
+.expBlock {
     margin-bottom: 10px;
 }
 
-.expBlock h5{
-    padding: 20px 10px;
+.expBlock h5 {
+    padding: 30px 10px;
+    text-align: left;
 }
 
-.expTitle{
+.expTitle {
     background-color: #D71F3D;
 }
 
-.expDesc{
+.expDesc {
     background-color: #172027;
     color: #EFF0F4;
 }
 
-.expDesc ul{
+.expDesc ul {
     padding: 20px 10px;
     margin-right: 5px;
     list-style: square;
 }
 
-.formboxes{
+.formboxes {
     border: none;
     border-bottom: 2px solid #D71F3D;
-    background-color: rgb(23,32,39, 0.1);
+    background-color: rgb(23, 32, 39, 0.1);
     color: #172027;
     margin-bottom: 10px;
+}
+
+#contact a {
+    color: #172027;
+}
+
+#contact a:hover {
+    text-decoration: none;
+    color: #D71F3D;
+}
+
+input{
+    width: 100%;
+}
+
+textarea{
+    width: 100%;
 }
