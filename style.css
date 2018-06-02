@@ -213,3 +213,10 @@ textarea{
   .devicon-colored path {
     fill: #D71F3D;
   }
+
+.thankyou{
+    height: 100vh;
+    color: #F0F0F0;
+      padding-top: 20%;
+      background-color: #172027;
+  }
