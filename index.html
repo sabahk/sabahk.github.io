@@ -34,9 +34,6 @@
                     <a href="#skills">SKILLS</a>
                 </li>
                 <li>
-                    <a href="#experience">EXPERIENCE</a>
-                </li>
-                <li>
                     <a href="#portfolio">PORTFOLIO</a>
                 </li>
                 <li>
@@ -62,7 +59,18 @@
 
     <div class="main">
         <div id="about">
-            <h2>ABOUT ME</h2>
+            <!--<h2>ABOUT ME</h2>-->
+            <div class="contentAbout">
+                <p>Hey! <i class="fas fa-hand-peace"></i></p>
+                 <br/>
+                 <p>I'm <span style="color: #D71F3D;">Sabah Khan</span>, a software developer who freelances on the side. </p>
+    
+                <p>I received my degree in Computer Science from <span style="color:#0c5449;">Wayne State University</span>. You can download a full copy of my resume
+                    <a href="SabahKhan_Resume.pdf" target="_blank">here</a>!
+                </p>
+                <br/>
+                <p style="text-align: center;">Feel free to send me an e-mail! <br/> <a href="mailto:sabahkhan17@gmail.com">sabahkhan17@gmail.com</a></p>
+            </div>
         </div>
 
         <div id="skills">
@@ -147,7 +155,7 @@
                 </div>
             </div>
         </div>
-
+        <!--
         <div id="experience">
             <h2>EXPERIENCE</h2>
             <div>
@@ -225,35 +233,34 @@
                 </div>
             </div>
         </div>
-
+    -->
         <div id="portfolio">
             <h2>PORTFOLIO</h2>
         </div>
 
-        <div id="contact">
+        <div class="center" id="contact">
             <h2>CONTACT</h2>
-            <div class="row">
-                <div class="col-md-6 center">
-                        <h3>Get In Touch</h3>
-                        <a href="https://twitter.com/Sabah17k" target="_blank" sizes="64x364">
-                            <i class="fab fa-twitter-square fa-2x"></i>
-                        </a>
-                        <a href="https://www.linkedin.com/in/sabah-khan-5926b9126/" target="_blank">
-                            <i class="fab fa-linkedin fa-2x"></i>
-                        </a>
-                        <a href="mailto:sabahkhan17@gmail.com" target="_top">
-                            <i class="fas fa-envelope-square fa-2x"></i>
-                        </a>
-                </div>
-                <div class="col-md-4 center">
-                    <form>
-                        <input type="text" class="formboxes" name="fullName" placeholder="Name">
+            <h3>LET'S GET IN TOUCH!</h3>
+            <p>(all fields are required)</p>
+            <div class="conInfo center">
+                    <form method="POST" action="https://formspree.io/sabahkhan17@gmail.com">
+                        <input type="text" class="formboxes" name="name" placeholder="Name" required>
                         <br/>
-                        <input type="email" class="formboxes" name="email" placeholder="Email">
+                        <input type="email" class="formboxes" name="_ReplyTo" placeholder="Email" required>
                         <br/>
-                        <textarea name="message" class="formboxes" placeholder="Message" rows="5"></textarea>
+                        <textarea name="message" class="formboxes" placeholder="Message" rows="5" required></textarea>
+                        <br/><input type="submit" value="Send" class="submitButton">
                     </form>
-                </div>
+
+                <a href="https://twitter.com/Sabah17k" target="_blank" sizes="64x364">
+                    <i class="fab fa-twitter-square fa-3x"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/sabah-khan-5926b9126/" target="_blank">
+                    <i class="fab fa-linkedin fa-3x"></i>
+                </a>
+                <a href="mailto:sabahkhan17@gmail.com" target="_top">
+                    <i class="fas fa-envelope-square fa-3x"></i>
+                </a>
             </div>
         </div>
     </div>

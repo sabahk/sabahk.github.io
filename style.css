@@ -1,6 +1,7 @@
 html, body {
-    top: 0;
-    bottom: 0;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
 }
 
 i {
@@ -98,14 +99,29 @@ svg {
 .main {
     color: #172027;
     margin-left: 25%;
-    padding-left: 80px;
-    padding-top: 5%;
-    padding-bottom: 20px;
 }
 
-.main #about {
-    height: 100%;
+#about {
+    height: 100vh;
+    max-width: 850px;
+    font-size: 30px;
 }
+
+.contentAbout{
+    text-align: left;
+    padding-top: 17%;
+    padding-left: 15%;
+}
+
+#about a{
+    
+    color: #D71F3D;
+}
+
+#about a:hover{
+    color: #172027;
+}
+
 
 #skills ul {
     padding-left: 5px;
@@ -138,17 +154,32 @@ svg {
     margin-right: 5px;
     list-style: square;
 }
+#contact h2{
+    padding-bottom: 5px;
+}
+
+#contact{
+    padding-bottom: 30px;
+}
+
+#contact p{
+    padding-bottom: 30px;
+}
+form{
+    padding-bottom: 40px;
+}
 
 .formboxes {
     border: none;
-    border-bottom: 2px solid #D71F3D;
-    background-color: rgb(23, 32, 39, 0.1);
-    color: #172027;
-    margin-bottom: 10px;
+    background-color: rgb(23, 32, 39, 0.3);
+    color: #F0F0F0;
+    margin-bottom: 8px;
+    padding: 10px 15px;
 }
 
 #contact a {
     color: #172027;
+
 }
 
 #contact a:hover {
@@ -157,13 +188,23 @@ svg {
 }
 
 input{
-    width: 100%;
+    width: 40%;
 }
 
 textarea{
-    width: 100%;
+    width: 40%;
 }
 
+.submitButton{
+    width: 100px;
+    background-color: transparent;
+    color: #172027;
+    border: 3px solid #172027;
+}
+
+.submitButton:hover{
+    background-color: #D71F3D;
+}
 .devicon-colored {
     max-width: 2em;
   }
