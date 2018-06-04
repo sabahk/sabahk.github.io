@@ -5,7 +5,8 @@ html, body {
 }
 
 ::selection{
-    color: aquamarine;
+    color: #172027;
+    background-color: #D71F3D;
 }
 
 i {
